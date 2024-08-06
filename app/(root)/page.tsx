@@ -16,12 +16,12 @@ const socialLinks = [
   },
   {
     name: 'GitHub',
-    url: '',
+    url: 'https://github.com/Biyinzika-Joshua-J',
     icon: <Github />
   },
   {
     name: 'Twitter/X',
-    url: '',
+    url: 'https://x.com/JoshJosephB',
     icon: <Twitter />
   }
 ];
@@ -51,7 +51,10 @@ export default function Home() {
           </div>
 
           <p className="text-lg mt-2">
-            I&apos;m a software developer who loves to build things for the web.
+            I&apos;m a software engineer shipping startups like a madman. Every project is a small
+            bet, you never know what hits. I write about my journey and share my learnings. My tools
+            of trade are React, Next.js and TypeScript for the frontend, then Python and Django for
+            the backend. Database of choice is PostgreSQL.
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {socialLinks.map((link) => (
