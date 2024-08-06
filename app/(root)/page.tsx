@@ -5,6 +5,8 @@ import TooltipWrapper from '@/components/TooltipWrapper';
 import ProjectCard from '@/components/ProjectCard';
 import { ScrollArea } from '@radix-ui/react-scroll-area';
 
+import { ProjectsData } from '@/data/data';
+
 const socialLinks = [
   {
     name: 'LinkedIn',
@@ -68,25 +70,21 @@ export default function Home() {
           <ScrollArea className="md:max-h-screen md:overflow-y-auto hide-scrollbar">
             <h2 className="text-2xl font-bold my-6">My micro startups</h2>
             <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
-              <ProjectCard />
-              <ProjectCard />
+              {ProjectsData.map((project) => (
+                <ProjectCard
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  url={project.url}
+                  width={project.width}
+                  height={project.height}
+                />
+              ))}
             </div>
 
             <h2 className="text-2xl font-bold my-6">My articles</h2>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
-            </div>
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">articles</div>
           </ScrollArea>
         </div>
       </div>
