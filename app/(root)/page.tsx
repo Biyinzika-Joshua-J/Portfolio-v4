@@ -3,9 +3,10 @@ import { MapPin, Linkedin, Github, Twitter } from 'lucide-react';
 import Link from 'next/link';
 import TooltipWrapper from '@/components/TooltipWrapper';
 import ProjectCard from '@/components/ProjectCard';
+import ArticleCard from '@/components/ArticleCard';
 import { ScrollArea } from '@radix-ui/react-scroll-area';
 
-import { ProjectsData } from '@/data/data';
+import { ProjectsData, ArticlesData } from '@/data/data';
 
 const socialLinks = [
   {
@@ -68,7 +69,7 @@ export default function Home() {
 
         <div className="w-full">
           <ScrollArea className="md:max-h-screen md:overflow-y-auto hide-scrollbar">
-            <h2 className="text-2xl font-bold my-6">My micro startups</h2>
+            <h2 className="text-2xl font-bold mb-6">My small bets</h2>
             <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
               {ProjectsData.map((project) => (
                 <ProjectCard
@@ -79,12 +80,27 @@ export default function Home() {
                   url={project.url}
                   width={project.width}
                   height={project.height}
+                  animation={project.animation}
                 />
               ))}
             </div>
 
             <h2 className="text-2xl font-bold my-6">My articles</h2>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">articles</div>
+            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
+              {ArticlesData.map((article) => (
+                <ArticleCard
+                  key={article.title}
+                  title={article.title}
+                  description={article.description}
+                  Icon={article.icon}
+                  url={article.url}
+                  width={article.width}
+                  height={article.height}
+                  animation={article.animation}
+                  medium={article.medium}
+                />
+              ))}
+            </div>
           </ScrollArea>
         </div>
       </div>

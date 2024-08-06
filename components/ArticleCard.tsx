@@ -13,14 +13,24 @@ import { Badge } from './ui/badge';
 interface Props {
   title?: string;
   description: string;
-  image: string;
+  Icon: any;
   url: string;
   width?: number;
   height?: number;
   animation: string;
+  medium?: string;
 }
 
-const ProjectCard = ({ title, description, image, url, width, height, animation }: Props) => {
+const ArticleCard = ({
+  title,
+  description,
+  Icon,
+  url,
+  width,
+  height,
+  animation,
+  medium
+}: Props) => {
   return (
     <Link href={url} target="_blank">
       <Card className="hover:bg-secondary group rounded-3xl  transition-colors">
@@ -28,11 +38,7 @@ const ProjectCard = ({ title, description, image, url, width, height, animation 
           <CardTitle className="flex items-center justify-between">
             <div className="flex space-x-2 items-center">
               <div>
-                <Image
-                  src={image}
-                  width={width ? width : 100}
-                  height={height ? height : 100}
-                  alt={'logo'}
+                <Icon
                   className={`transition-transform duration-300 ease-in-out transform group-hover:${animation}`}
                 />
               </div>
@@ -41,7 +47,7 @@ const ProjectCard = ({ title, description, image, url, width, height, animation 
             </div>
 
             <div>
-              <Badge className="bg-primary text-accent">{'Startup'}</Badge>
+              <Badge className="bg-primary text-accent">{medium ? medium : 'Medium'}</Badge>
             </div>
           </CardTitle>
         </CardHeader>
@@ -53,4 +59,4 @@ const ProjectCard = ({ title, description, image, url, width, height, animation 
   );
 };
 
-export default ProjectCard;
+export default ArticleCard;
