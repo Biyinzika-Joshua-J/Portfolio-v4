@@ -33,7 +33,7 @@ const ProjectCard = ({ title, description, image, url, width, height, animation 
                   width={width ? width : 100}
                   height={height ? height : 100}
                   alt={'logo'}
-                  className={`transition-transform duration-300 ease-in-out transform group-hover:${animation}`}
+                  className={`transition-transform duration-300 ease-in-out transform group-hover:rotate-6`}
                 />
               </div>
 

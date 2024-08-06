@@ -39,7 +39,7 @@ const ArticleCard = ({
             <div className="flex space-x-2 items-center">
               <div>
                 <Icon
-                  className={`transition-transform duration-300 ease-in-out transform group-hover:${animation}`}
+                  className={`transition-transform duration-300 ease-in-out transform group-hover:scale-125`}
                 />
               </div>
 
