@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex md:flex-row flex-col gap-10">
         <div className="md:w-1/2 w-full ">
           <div className="flex flex-col max-md:flex-row ">
-            <div className="bg-primary p-4 rounded-full inline-block w-fit">
+            <div className="bg-primary p-4 rounded-full inline-block w-fit  max-md:self-center">
               <Image
                 src="https://media.licdn.com/dms/image/D4D03AQGA21QMWuZCbg/profile-displayphoto-shrink_400_400/0/1712980999250?e=1728518400&v=beta&t=4qHmqTG4A9SJDZjc4ekWcNQXAi7Aa4S0kZeQDDmbWrs"
                 alt="Joshua Biyinzika"
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="w-full">
           <ScrollArea className="md:max-h-screen md:overflow-y-auto hide-scrollbar">
             <h2 className="text-2xl font-bold mb-6">My small bets</h2>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10 mt-4">
               {ProjectsData.map((project) => (
                 <ProjectCard
                   key={project.title}
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
 
             <h2 className="text-2xl font-bold my-6">My articles</h2>
-            <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-10 mt-4">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10 mt-4">
               {ArticlesData.map((article) => (
                 <ArticleCard
                   key={article.title}
