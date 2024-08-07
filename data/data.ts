@@ -7,7 +7,7 @@ export const ProjectsData = [
   {
     title: '',
     description:
-      'A platform that aggregates remote jobs into one place. Features state of the art web scrapping.',
+      'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
     image: '/logos/remotla_logo.webp',
     url: 'https://beta.remotla.com',
     animation: 'rotate-6'
