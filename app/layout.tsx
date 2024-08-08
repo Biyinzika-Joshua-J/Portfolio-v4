@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@JoshJosephB',
-    title: 'Indie page - A list of all my small bets',
+    title: 'Indie Profile - A list of all my small bets',
     description: SiteDescription,
     creator: '@JoshJosephB',
     images: {
