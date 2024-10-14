@@ -51,10 +51,20 @@ export default function Home() {
           </div>
 
           <p className="text-lg mt-2">
-            I&apos;m a software engineer shipping startups like a madman. Every project is a small
-            bet, you never know what hits. I write about my journey and share my learnings. My tools
-            of trade are React, Next.js and TypeScript for the frontend, then Python and Django for
-            the backend. Database of choice is PostgreSQL.
+          Once upon a time, I used to think the "eat -{'>'} code -{'>'} sleep -{'>'} repeat" folks were nuts. But nowadays, that's all I do. I'll admit, it sometimes can soul wrenching.
+
+But the joy of building (and making) stuff with code ALWAYS out weighs the misery of writing code itself. #iykyk
+
+They say software engineering is all about trade offs, and you know what, they are right. Sometimes you trade your sanity for the love of solving some "complex code puzzles". It always pays off, at least it has for me.
+
+My name is Joshua Biyinzika, I'm a software engineer, I work with..... well, anything JavaScript: React, Next, Typescript and, wait - that's all.
+
+Then Python, Django, PostgreSQL and Docker.
+
+I'm also a wannabe solopreneur which has turned out to be a hard venture. Building software is one thing, selling it is another. Are you even in business if you don't make $$$ from your apps. Cause it's all about the Benjamins, isn't it?
+
+Inbox is always open... 
+
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {socialLinks.map((link) => (
