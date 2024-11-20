@@ -34,7 +34,7 @@ export default function Home() {
           <div className="flex flex-col max-md:flex-row ">
             <div className="bg-primary p-4 rounded-full inline-block w-fit  max-md:self-center">
               <Image
-                src="https://media.licdn.com/dms/image/D4D03AQGA21QMWuZCbg/profile-displayphoto-shrink_400_400/0/1712980999250?e=1728518400&v=beta&t=4qHmqTG4A9SJDZjc4ekWcNQXAi7Aa4S0kZeQDDmbWrs"
+                src="https://media.licdn.com/dms/image/v2/D4D03AQGA21QMWuZCbg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1712980999250?e=1737590400&v=beta&t=vkgDiMawqst-LHCoJ99hj5LP6pGD-aFwDS2BLntW0W0"
                 alt="Joshua Biyinzika"
                 width={180}
                 height={180}
