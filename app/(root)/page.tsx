@@ -51,19 +51,12 @@ export default function Home() {
           </div>
 
           <p className="text-lg mt-2">
-            Once upon a time, I used to think the &quot;eat -{'>'} code -{'>'} sleep -{'>'}{' '}
-            repeat&quot; folks were nuts. But nowadays, that&apos;s all I do. I&apos;ll admit, it
-            sometimes can soul wrenching. But the joy of building (and making) stuff with code
-            ALWAYS out weighs the misery of writing code itself. #iykyk They say software
-            engineering is all about trade offs, and you know what, they are right. Sometimes you
-            trade your sanity for the love of solving some &quot;complex code puzzles&quot;. It
-            always pays off, at least it has for me. My name is Joshua Biyinzika, I&apos;m a
-            software engineer, I work with..... well, anything JavaScript: React, Next, Typescript
-            and, wait - that&apos;s all. Then Python, Django, PostgreSQL and Docker. I&apos;m also a
-            wannabe solopreneur which has turned out to be a hard venture. Building software is one
-            thing, selling it is another. Are you even in business if you don&apos;t make $$$ from
-            your apps. Cause it&apos;s all about the Benjamins, isn&apos;t it? Inbox is always
-            open...
+            I&apos;m a software engineer with over 2 years of experience working with a diverse
+            range of technologies, including JavaScript, TypeScript, Nest js, Python, React, HTMX,
+            Next.js, Django, and PostgreSQL. My expertise spans both frontend and backend
+            development, and I&apos;m currently expanding my skills into systems programming with
+            Rust. I regularly share my journey and experiences on LinkedIn, X (formerly Twitter),
+            and Medium.
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {socialLinks.map((link) => (
