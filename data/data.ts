@@ -3,6 +3,9 @@ import IconReact from '@/components/icons/React';
 import IconBrandJavascript from '@/components/icons/JavaScript';
 import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
 
+// TODO: Add sell online project
+// TODO: Add new articles
+
 export const ProjectsData = [
   {
     title: 'Posiboo',
