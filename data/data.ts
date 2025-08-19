@@ -5,6 +5,28 @@ import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
 
 export const ProjectsData = [
   {
+    title: 'Posiboo',
+    description:
+      'A ShadCN UI Kit built for Solo-developers, Indie-hackers and everybody else who sucks at design and wants to ship fast.',
+    image: '/logos/posiboo.png',
+    url: 'https://posiboo.com',
+    height: 30,
+    width: 30,
+    animation: 'scale-110'
+  },
+
+  /*{
+    title: 'Sell Online',
+    description: 'A ShadCN UI Kit built for Solo-developers, Indie-hackers and everybody else who sucks at design and wants to ship fast.',
+    // image: '/logos/posiboo.png',
+    url: 'https://josh-codes.dev/sell-online',
+    height: 30,
+    width: 30,
+    animation: 'scale-110',
+    type: 'Business'
+  }, */
+
+  {
     title: '',
     description:
       'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
