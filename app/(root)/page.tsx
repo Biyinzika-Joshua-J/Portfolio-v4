@@ -51,12 +51,24 @@ export default function Home() {
           </div>
 
           <p className="text-lg mt-2">
-            I&apos;m a software engineer with over 2 years of experience working with a diverse
-            range of technologies, including JavaScript, TypeScript, Nest js, Python, React, HTMX,
-            Next.js, Django, and PostgreSQL. My expertise spans both frontend and backend
-            development, and I&apos;m currently expanding my skills into systems programming with
-            Rust. I regularly share my journey and experiences on LinkedIn, X (formerly Twitter),
-            and Medium.
+            Hey, I&apos;m Joshua. I make small, useful software. Right now:{' '}
+            <Link
+              className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
+              target="_blank"
+              href={'https://posiboo.com'}
+            >
+              Posiboo (UI toolkit)
+            </Link>{' '}
+            and a side quest called Dbify (think: Coolify but for Databases). Mostly TypeScript and
+            Rust (My allegiance is to the Crab). If you&apos;re in Uganda and need a clean online
+            shop that just works on a phone, I can help.{' '}
+            <Link
+              className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
+              href={'/sell-online'}
+              target="_blank"
+            >
+              Sell online
+            </Link>
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {socialLinks.map((link) => (
