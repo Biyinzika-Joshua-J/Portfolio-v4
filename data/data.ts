@@ -12,7 +12,8 @@ export const ProjectsData = [
     url: 'https://posiboo.com',
     height: 30,
     width: 30,
-    animation: 'scale-110'
+    animation: 'scale-110',
+    type: undefined
   },
 
   /*{
