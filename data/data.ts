@@ -5,6 +5,7 @@ import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
 
 // TODO: Add sell online project
 // TODO: Add new articles
+// TODO: Update favicon
 
 export const ProjectsData = [
   {
