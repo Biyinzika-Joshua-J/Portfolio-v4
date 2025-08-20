@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { MessageCircle, Wallet, Boxes, Smartphone, Users } from 'lucide-react';
+import Image from 'next/image';
 
 const WA_NUMBER = '256784180208';
 
@@ -141,23 +142,21 @@ export default function HeroSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="relative mx-auto h-[520px] w-[270px] rounded-[40px] border border-white/10 bg-gradient-to-br from-slate-900/80 to-slate-900/40 p-3 shadow-2xl backdrop-blur">
-              <div className="mx-auto h-full w-full rounded-[32px] border border-white/10 bg-[linear-gradient(120deg,rgba(255,255,255,0.06),transparent)] p-4">
-                {/* top notch */}
-                <div className="mx-auto mb-3 h-6 w-28 rounded-b-2xl bg-black/40" />
-                <div className="space-y-3">
-                  <div className="h-40 w-full rounded-2xl bg-white/5" />
-                  <div className="h-10 w-2/3 rounded-xl bg-white/10" />
-                  <div className="h-6 w-1/2 rounded-lg bg-white/10" />
-                  <Separator className="bg-white/10" />
-                  <div className="grid grid-cols-3 gap-3">
-                    <div className="h-20 rounded-xl bg-white/5" />
-                    <div className="h-20 rounded-xl bg-white/5" />
-                    <div className="h-20 rounded-xl bg-white/5" />
-                  </div>
-                  <div className="mt-2 h-10 w-full rounded-xl bg-indigo-600/80" />
-                </div>
-              </div>
+            <div className="relative mx-auto h-[auto]  rounded-[40px]">
+              <Image
+                src={'/hero-desktop.png'}
+                alt="Hero"
+                width={1000}
+                height={1000}
+                className="h-full w-full max-md:hidden"
+              />
+              <Image
+                src={'/hero-mobile.png'}
+                alt="Hero"
+                width={1000}
+                height={1000}
+                className="h-full w-full md:hidden"
+              />
             </div>
           </motion.div>
           {/* glow ring */}
