@@ -32,14 +32,6 @@ export const ProjectsData = [
   }, */
 
   {
-    title: '',
-    description:
-      'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
-    image: '/logos/remotla_logo.webp',
-    url: 'https://beta.remotla.com',
-    animation: 'rotate-6'
-  },
-  {
     title: 'Tabioo',
     description: 'A tool for designing entity relationship diagrams for databases.',
     image: '/logos/tabioo.ico',
@@ -47,6 +39,27 @@ export const ProjectsData = [
     height: 30,
     width: 30,
     animation: 'scale-110'
+  },
+
+  {
+    title: 'Sorting Algorithms Visualizer',
+    description:
+      'A web app that visualizes sorting algorithms like bubble sort, selection sort, insertion sort, merge sort and quick sort.',
+    image: '',
+    url: 'https://cs-sorting-algorithms-visualizer.netlify.app/',
+    height: 30,
+    width: 30,
+    animation: 'scale-110',
+    type: 'Side Project'
+  },
+
+  {
+    title: '',
+    description:
+      'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
+    image: '/logos/remotla_logo.webp',
+    url: 'https://beta.remotla.com',
+    animation: 'rotate-6'
   }
 ];
 
