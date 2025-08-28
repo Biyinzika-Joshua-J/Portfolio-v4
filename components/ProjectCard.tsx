@@ -44,7 +44,7 @@ const ProjectCard = ({ title, description, image, url, width, height, animation,
             </div>
 
             <div>
-              <Badge className="bg-primary text-accent">{type || 'Startup'}</Badge>
+              <Badge className="bg-primary text-accent text-center">{type || 'Startup'}</Badge>
             </div>
           </CardTitle>
         </CardHeader>

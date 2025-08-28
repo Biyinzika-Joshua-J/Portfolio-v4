@@ -54,6 +54,30 @@ export const ProjectsData = [
   },
 
   {
+    title: 'Recursive Descent Parser',
+    description:
+      'A JavaScript implementation of a recursive descent parser that parses a language with similar syntax to JavaScript and creates an AST.',
+    image: '/logos/github.jpg',
+    url: 'https://github.com/Biyinzika-Joshua-J/Predictive-Recursive-Descent-Parser',
+    height: 30,
+    width: 30,
+    animation: 'scale-110',
+    type: 'Side Project'
+  },
+
+  {
+    title: 'Inverted Index Algorithm',
+    description:
+      'A Python implementation of an inverted index algorithm that creates an inverted index from a collection of documents and allows for searching the documents.',
+    image: '/logos/github.jpg',
+    url: 'https://github.com/Biyinzika-Joshua-J/Expansive_Search',
+    height: 30,
+    width: 30,
+    animation: 'scale-110',
+    type: 'Side Project'
+  },
+
+  {
     title: '',
     description:
       'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
