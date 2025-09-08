@@ -35,7 +35,7 @@ export const ProjectsData = [
     title: 'Tabioo',
     description: 'A tool for designing entity relationship diagrams for databases.',
     image: '/logos/tabioo.ico',
-    url: 'https://tabioo.com',
+    url: 'https://tabioo.josh-codes.dev/',
     height: 30,
     width: 30,
     animation: 'scale-110'
