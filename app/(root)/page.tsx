@@ -57,11 +57,11 @@ export default function Home() {
               target="_blank"
               href={'https://posiboo.com'}
             >
-              Posiboo (UI toolkit)
+              Posiboo
             </Link>{' '}
-            and a side quest called Dbify (think: Coolify but for Databases). Mostly TypeScript and
-            Rust (My allegiance is to the Crab). If you&apos;re in Uganda and need a clean online
-            shop that just works on a phone, I can help.{' '}
+            and I live compilers. Mostly TypeScript and Rust (My allegiance is to the Crab). If
+            you&apos;re in Uganda and need a clean online shop that just works on a phone, I can
+            help.{' '}
             <Link
               className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
               href={'/sell-online'}

@@ -11,7 +11,7 @@ export const ProjectsData = [
   {
     title: 'Posiboo',
     description:
-      'A ShadCN UI Kit built for Solo-developers, Indie-hackers and everybody else who sucks at design and wants to ship fast.',
+      'A JSON/HTML to PDF generation API that allows you to create PDFs from JSON or HTML templates.',
     image: '/logos/posiboo.png',
     url: 'https://posiboo.com',
     height: 30,
