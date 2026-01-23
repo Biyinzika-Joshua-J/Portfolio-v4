@@ -62,13 +62,13 @@ export default function Home() {
             and I love working with compilers. Mostly TypeScript and Rust (My allegiance is to the
             Crab). If you&apos;re in Uganda and need a clean online web presence for your business,
             reach out. I&apos;m happy to help.{' '}
-            <Link
+            {/*<Link
               className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
               href={'/sell-online'}
               target="_blank"
             >
               Sell online
-            </Link>
+            </Link>*/}
           </p>
           <div className="flex items-center space-x-4 mt-6">
             {socialLinks.map((link) => (
