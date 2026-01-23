@@ -59,9 +59,9 @@ export default function Home() {
             >
               Posiboo
             </Link>{' '}
-            and I live compilers. Mostly TypeScript and Rust (My allegiance is to the Crab). If
-            you&apos;re in Uganda and need a clean online shop that just works on a phone, I can
-            help.{' '}
+            and I love working with compilers. Mostly TypeScript and Rust (My allegiance is to the
+            Crab). If you&apos;re in Uganda and need a clean online web presence for your business,
+            reach out. I&apos;m happy to help.{' '}
             <Link
               className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
               href={'/sell-online'}
