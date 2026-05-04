@@ -20,6 +20,17 @@ export const ProjectsData = [
     type: undefined
   },
 
+  {
+    title: 'Tenaar',
+    description:
+      'Property management software for Ugandan property managers and landlords, with tenant file management, rent tracking, and maintenance ticket handling.',
+    image: '/logos/tenaar.png',
+    url: 'https://tenaar.com',
+    height: 32,
+    width: 108,
+    animation: 'scale-110'
+  },
+
   /*{
     title: 'Sell Online',
     description: 'A ShadCN UI Kit built for Solo-developers, Indie-hackers and everybody else who sucks at design and wants to ship fast.',
