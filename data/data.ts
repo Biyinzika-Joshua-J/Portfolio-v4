@@ -9,6 +9,17 @@ import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
 
 export const ProjectsData = [
   {
+    title: '',
+    description:
+      'Property management software for Ugandan property managers and landlords, with tenant file management, rent tracking, and maintenance ticket handling.',
+    image: '/logos/tenaar.png',
+    url: 'https://tenaar.com',
+    height: 32,
+    width: 108,
+    animation: 'scale-110'
+  },
+
+  {
     title: 'Posiboo',
     description:
       'A JSON/HTML to PDF generation API that allows you to create PDFs from JSON or HTML templates.',
@@ -18,17 +29,6 @@ export const ProjectsData = [
     width: 30,
     animation: 'scale-110',
     type: undefined
-  },
-
-  {
-    title: 'Tenaar',
-    description:
-      'Property management software for Ugandan property managers and landlords, with tenant file management, rent tracking, and maintenance ticket handling.',
-    image: '/logos/tenaar.png',
-    url: 'https://tenaar.com',
-    height: 32,
-    width: 108,
-    animation: 'scale-110'
   },
 
   /*{
