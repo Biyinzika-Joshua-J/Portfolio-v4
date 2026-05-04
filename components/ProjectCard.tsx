@@ -23,7 +23,7 @@ interface Props {
 
 const ProjectCard = ({ title, description, image, url, width, height, animation, type }: Props) => {
   return (
-    <Link href={url} target="_blank">
+    <Link href={url} target="_blank" className="break-inside-avoid mb-10 block">
       <Card className="hover:bg-secondary group rounded-3xl  transition-colors">
         <CardHeader>
           <CardTitle className="flex items-center justify-between">

@@ -42,7 +42,7 @@ export default function Home() {
               />
             </div>
             <div className="space-y-4 max-md:pl-4 py-4">
-              <h1 className="text-4xl font-bold py-2">Biyinzika Joshua</h1>
+              <h1 className="text-4xl font-bold py-2">Joshua Biyinzika</h1>
               <div className="flex space-x-2 items-center font-medium">
                 <MapPin size={20} />
                 <span>Kampala, Uganda</span>
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="w-full">
           <ScrollArea className="md:max-h-screen md:overflow-y-auto hide-scrollbar">
             <h2 className="text-2xl font-bold mb-6">My small bets</h2>
-            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10 mt-4">
+            <div className="columns-2 gap-10 max-md:columns-1 mt-4">
               {ProjectsData.map((project) => (
                 <ProjectCard
                   key={project.title}
@@ -104,7 +104,7 @@ export default function Home() {
             </div>
 
             <h2 className="text-2xl font-bold my-6">My articles</h2>
-            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10 mt-4">
+            <div className="columns-2 gap-10 max-md:columns-1 mt-4">
               {ArticlesData.map((article) => (
                 <ArticleCard
                   key={article.title}
