@@ -5,7 +5,7 @@ const TooltipWrapper = ({ children, content }: { children: React.ReactNode; cont
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger>{children}</TooltipTrigger>
-        <TooltipContent className="bg-[#e6e6e6]">
+        <TooltipContent className="border border-border bg-popover text-popover-foreground">
           <p>{content}</p>
         </TooltipContent>
       </Tooltip>
