@@ -31,6 +31,19 @@ export const ProjectsData = [
     type: undefined
   },
 
+  {
+    title: 'Organi',
+    description:
+      'A platform that helps you add a blog to your web app in less than 5 minutes. Fun fact: Organi currently powers the josh-codes.dev/blog blog.',
+    image: '/logos/organi.png',
+    url: 'https://organi.tenaar.com',
+    height: 30,
+    width: 30,
+    animation: 'scale-110',
+    type: undefined,
+    status: 'In development'
+  },
+
   /*{
     title: 'Sell Online',
     description: 'A ShadCN UI Kit built for Solo-developers, Indie-hackers and everybody else who sucks at design and wants to ship fast.',
@@ -49,7 +62,8 @@ export const ProjectsData = [
     url: 'https://tabioo.josh-codes.dev/',
     height: 30,
     width: 30,
-    animation: 'scale-110'
+    animation: 'scale-110',
+    status: 'Inactive'
   },
 
   {
@@ -94,7 +108,8 @@ export const ProjectsData = [
       'A platform that aggregates remote jobs into one place. Features state of the art web scraping.',
     image: '/logos/remotla_logo.webp',
     url: 'https://beta.remotla.com',
-    animation: 'rotate-6'
+    animation: 'rotate-6',
+    status: 'Discontinued'
   }
 ];
 
@@ -153,4 +168,4 @@ export const ArticlesData = [
 ];
 
 export const SiteDescription =
-  "I'm a software engineer shipping startups like a madman. Every project is a small bet, you never know what hits. I write about my journey and share my learnings. My tools of trade are React, Next.js and TypeScript for the frontend, then Python and Django for the backend. Database of choice is PostgreSQL.";
+  'Software engineer with 4 years of experience building and shipping web products, developer tools, APIs, and backend systems. I work mainly with TypeScript, Next.js, Python, Rust, and PostgreSQL, with a focus on clean architecture, performance, and real product impact.';

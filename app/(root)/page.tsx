@@ -51,7 +51,9 @@ export default function Home() {
           </div>
 
           <p className="text-lg mt-2">
-            Hey, I&apos;m Joshua. I make small, useful software. Right now:{' '}
+            Hey, I&apos;m Joshua, a software engineer with 4 years of experience building and
+            shipping products across web platforms, developer tooling, and backend systems. I care
+            about clean architecture and fast execution. I&apos;m currently building{' '}
             <Link
               className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
               target="_blank"
@@ -59,9 +61,10 @@ export default function Home() {
             >
               Posiboo
             </Link>{' '}
-            and I love working with compilers. Mostly TypeScript and Rust (My allegiance is to the
-            Crab). If you&apos;re in Uganda and need a clean online web presence for your business,
-            reach out. I&apos;m happy to help.{' '}
+            and I enjoy working low level too, especially with compilers. I&apos;m comfortable with
+            TypeScript, Python, and JavaScript, and familiar with C++, C and Rust. I&apos;ve built
+            SaaS products, APIs, internal tools, and customer-facing systems with an eye on
+            performance, maintainability, and real business outcomes.{' '}
             {/*<Link
               className="text-blue-500 font-bold underline-offset-2 underline hover:text-blue-800"
               href={'/sell-online'}
@@ -99,6 +102,7 @@ export default function Home() {
                   height={project.height}
                   animation={project.animation}
                   type={project.type || undefined}
+                  status={project.status || undefined}
                 />
               ))}
             </div>
