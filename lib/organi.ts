@@ -1,6 +1,6 @@
 import 'server-only';
 
-const ORGANI_API_BASE_URL = 'https://organi.tenaar.com/api/v1/';
+const ORGANI_API_BASE_URL = 'https://pepa.dev/api/v1/';
 const DEFAULT_BLOG_SLUG = 'josh-codesdevblog';
 
 type Nullable<T> = T | null;

@@ -36,7 +36,7 @@ export const ProjectsData = [
     description:
       'A platform that helps you add a blog to your web app in less than 5 minutes. Fun fact: Organi currently powers the josh-codes.dev/blog blog.',
     image: '/logos/organi.png',
-    url: 'https://organi.tenaar.com',
+    url: 'https://pepa.dev',
     height: 30,
     width: 30,
     animation: 'scale-110',
