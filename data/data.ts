@@ -32,9 +32,9 @@ export const ProjectsData = [
   },
 
   {
-    title: 'Organi',
+    title: 'Pepa',
     description:
-      'A platform that helps you add a blog to your web app in less than 5 minutes. Fun fact: Organi currently powers the josh-codes.dev/blog blog.',
+      'A platform that helps you add a blog to your web app in less than 5 minutes. Fun fact: Pepa currently powers the josh-codes.dev/blog blog.',
     image: '/logos/organi.png',
     url: 'https://pepa.dev',
     height: 30,
